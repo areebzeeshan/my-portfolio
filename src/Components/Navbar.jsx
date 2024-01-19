@@ -12,6 +12,7 @@ const Navbar = () => {
     { name: 'About', href: '#about', current: false },
     { name: 'Education', href: '#education', current: false },
     { name: 'Skills', href: '#skills', current: false },
+    { name: 'Projects', href: '#projects', current: false },
     { name: 'Contact', href: '#contact', current: false },
   ]
   const [state, setState] = useState(false)
