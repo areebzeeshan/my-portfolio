@@ -37,7 +37,7 @@ const Navbar = () => {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-        <div className="fixed top-0 z-50 w-100 backdrop-blur-3xl">
+        <div className="fixed top-0 z-50 w-[100%] backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               
