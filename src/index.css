@@ -13,3 +13,6 @@ code {
     monospace;
 }
 
+.backdrop-blur {
+  backdrop-filter: blur(7px);
+}

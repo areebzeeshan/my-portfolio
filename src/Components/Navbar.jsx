@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import './index.css'
 
 const Navbar = () => {
@@ -32,11 +30,14 @@ const Navbar = () => {
     //   })
     // }
 
+    // position: fixed;
+    // backdrop-filter: blur(7px);
+    // width: 100%;
 
     <Disclosure as="nav">
       {({ open }) => (
         <>
-        <div className="sticky top-0 z-50">
+        <div className="fixed top-0 z-50 w-100 backdrop-blur-3xl">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               
